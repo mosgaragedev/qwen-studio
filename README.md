@@ -1,9 +1,9 @@
 # Qwen Studio for Linux
 
-[![Version](https://img.shields.io/github/v/release/youssefvdel/qwen-studio?label=version&color=blue)](https://github.com/youssefvdel/qwen-studio/releases)
+[![Version](https://img.shields.io/github/v/release/mosgaragedev/qwen-studio?label=version&color=blue)](https://github.com/mosgaragedev/qwen-studio/releases)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)](https://github.com/youssefvdel/qwen-studio/releases)
-[![Stars](https://img.shields.io/github/stars/youssefvdel/qwen-studio?style=social)](https://github.com/youssefvdel/qwen-studio/stargazers)
+[![Platform](https://img.shields.io/badge/platform-Linux-orange.svg)](https://github.com/mosgaragedev/qwen-studio/releases)
+[![Stars](https://img.shields.io/github/stars/mosgaragedev/qwen-studio?style=social)](https://github.com/mosgaragedev/qwen-studio/stargazers)
 
 Open-source Qwen AI desktop client for Linux. Run Alibaba's Qwen models natively with full MCP (Model Context Protocol) support and automatic updates.
 
@@ -18,7 +18,7 @@ The official Qwen Studio app only supports Windows and macOS. This project bring
 ### Option 1: Debian/Ubuntu (recommended)
 
 ```bash
-wget https://github.com/youssefvdel/qwen-studio/releases/latest/download/qwen-studio_2.2.2_amd64.deb
+wget https://github.com/mosgaragedev/qwen-studio/releases/latest/download/qwen-studio_2.2.2_amd64.deb
 sudo apt install ./qwen-studio_2.2.2_amd64.deb
 qwen-studio
 ```
@@ -26,12 +26,12 @@ qwen-studio
 ### Option 2: Fedora/RHEL
 
 ```bash
-wget https://github.com/youssefvdel/qwen-studio/releases/latest/download/qwen-studio-2.2.2.x86_64.rpm
+wget https://github.com/mosgaragedev/qwen-studio/releases/latest/download/qwen-studio-2.2.2.x86_64.rpm
 sudo dnf install qwen-studio-2.2.2.x86_64.rpm
 qwen-studio
 ```
 
-[All Downloads](https://github.com/youssefvdel/qwen-studio/releases)
+[All Downloads](https://github.com/mosgaragedev/qwen-studio/releases)
 
 ---
 
@@ -138,7 +138,7 @@ sequenceDiagram
 ### Install & Run
 
 ```bash
-git clone https://github.com/youssefvdel/qwen-studio.git
+git clone https://github.com/mosgaragedev/qwen-studio.git
 cd qwen-studio
 npm install
 npm run tauri:dev
